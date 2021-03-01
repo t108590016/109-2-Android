@@ -11,9 +11,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("MainActivity", "Hello TyphoonTail Debug");
-        Log.i("MainActivity", "MainActivity layout is complete");
-        Log.e("MainActivity", "Hello TyphoonTail Error");
-        Log.w("MainActivity", "Hello TyphoonTail Warn");
+        Log.d("MainActivity", "Hello world Debug");
+        Log.i("MainActivity", "Hello world Info");
+        Log.e("MainActivity", "Hello world Error");
+        Log.w("MainActivity", "Hello world Warn");
     }
 }
