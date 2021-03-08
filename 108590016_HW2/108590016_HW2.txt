@@ -2,8 +2,8 @@ Question 1
 Which two layout constraint attributes on the Zero Button position it vertically equal distance between the other two Button elements? (Pick 2 answers.)
 
 Answer:
-app:layout_constraintBottom_toTopOf="@+id/button_count"
-app:layout_constraintTop_toBottomOf="@+id/button_toast"
+android:layout_marginBottom="8dp"
+android:layout_marginTop="8dp"
 
 Question 2
 Which layout constraint attribute on the Zero Button positions it horizontally in alignment with the other two Button elements?
