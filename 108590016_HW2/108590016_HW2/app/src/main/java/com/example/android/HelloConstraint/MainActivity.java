@@ -22,6 +22,7 @@ import android.os.Bundle;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -39,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
     private int mCount = 0;
     private TextView mShowCount;
-    private TextView ZeroBackground;
+    private Button ZeroBackground;
 
 
     @Override
@@ -47,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mShowCount = (TextView) findViewById(R.id.show_count);
-        ZeroBackground = (TextView) findViewById(R.id.button_zero);
+        ZeroBackground = (Button) findViewById(R.id.button_zero);
 
     }
 

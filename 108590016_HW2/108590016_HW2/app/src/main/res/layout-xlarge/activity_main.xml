@@ -32,11 +32,11 @@
         android:text="@string/button_label_toast"
         android:textColor="@android:color/white"
         android:textSize="60sp"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="647dp"
+        app:layout_constraintEnd_toStartOf="@id/show_count"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/show_count"
-        app:layout_constraintEnd_toStartOf="@id/show_count"  />
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="647dp" />
 
     <Button
         android:id="@+id/button_zero"
@@ -61,11 +61,11 @@
         android:text="@string/button_label_count"
         android:textColor="@android:color/white"
         android:textSize="60sp"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="1513dp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="@id/show_count"
-        app:layout_constraintEnd_toStartOf="@id/show_count" />
+        app:layout_constraintEnd_toStartOf="@id/show_count"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="1513dp" />
 
     <TextView
         android:id="@+id/show_count"
