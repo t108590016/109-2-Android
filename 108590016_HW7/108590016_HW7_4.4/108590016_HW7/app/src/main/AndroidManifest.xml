@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a108590016_hw7">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.108590016_HW7">
+        <activity android:name=".froyo_circle" android:parentActivityName=".MainActivity" android:label="froyo_circle"></activity>
+        <activity
+            android:name=".icecream_circle"
+            android:label="icecream_circle"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".donut_circle"
+            android:label="donut_circle"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
