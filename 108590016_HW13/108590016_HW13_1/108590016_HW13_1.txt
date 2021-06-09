@@ -14,3 +14,4 @@ Question 3
 Can you think of a case where it makes sense to have both shared preferences and instance state?
 
 Answer:
+做一個遊戲，裡面有許多關卡，關卡可以使用instance state，遊戲可以使用shared preferences。
